@@ -15,6 +15,7 @@
 		171258F621F27819008786C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 171258F521F27819008786C3 /* main.m */; };
 		1712590021F27819008786C3 /* TipCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 171258FF21F27819008786C3 /* TipCalculatorTests.m */; };
 		1712590B21F27819008786C3 /* TipCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1712590A21F27819008786C3 /* TipCalculatorUITests.m */; };
+		1712591A21F28C07008786C3 /* Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1712591921F28C07008786C3 /* Calculate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1712590621F27819008786C3 /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1712590A21F27819008786C3 /* TipCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalculatorUITests.m; sourceTree = "<group>"; };
 		1712590C21F27819008786C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1712591821F28C07008786C3 /* Calculate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculate.h; sourceTree = "<group>"; };
+		1712591921F28C07008786C3 /* Calculate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +104,13 @@
 		171258E521F27818008786C3 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				171258EC21F27818008786C3 /* Main.storyboard */,
 				171258E621F27818008786C3 /* AppDelegate.h */,
 				171258E721F27818008786C3 /* AppDelegate.m */,
 				171258E921F27818008786C3 /* ViewController.h */,
 				171258EA21F27818008786C3 /* ViewController.m */,
-				171258EC21F27818008786C3 /* Main.storyboard */,
+				1712591821F28C07008786C3 /* Calculate.h */,
+				1712591921F28C07008786C3 /* Calculate.m */,
 				171258EF21F27819008786C3 /* Assets.xcassets */,
 				171258F121F27819008786C3 /* LaunchScreen.storyboard */,
 				171258F421F27819008786C3 /* Info.plist */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1712591A21F28C07008786C3 /* Calculate.m in Sources */,
 				171258EB21F27818008786C3 /* ViewController.m in Sources */,
 				171258F621F27819008786C3 /* main.m in Sources */,
 				171258E821F27818008786C3 /* AppDelegate.m in Sources */,
